@@ -94,9 +94,4 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         }
 
     }
-    
-    func tableView(_ tableView: UITableView, didEndDisplaying cell: UITableViewCell, forRowAt indexPath: IndexPath) {
-        guard let videoCell = cell as? MoviePlayerCell else { return };
-        videoCell.playerView.player?.pause();
-    }
 }

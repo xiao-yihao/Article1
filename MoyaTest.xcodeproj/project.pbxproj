@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		7F5B8AF1234C3AB2006D7A6B /* MoviePlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5B8AF0234C3AB2006D7A6B /* MoviePlayerCell.swift */; };
 		7F5B8AF3234C3DCE006D7A6B /* UITableView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5B8AF2234C3DCE006D7A6B /* UITableView+.swift */; };
-		7F5B8AF6234C6909006D7A6B /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5B8AF5234C6909006D7A6B /* PlayerView.swift */; };
 		7F5B8AF8234C780F006D7A6B /* Array+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5B8AF7234C780F006D7A6B /* Array+.swift */; };
 		7F5B8AFA234C9014006D7A6B /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5B8AF9234C9014006D7A6B /* ArticleCell.swift */; };
 		7F5B8AFC234C9316006D7A6B /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5B8AFB234C9316006D7A6B /* UIImage+.swift */; };
@@ -65,13 +64,12 @@
 		7F0AAE18D50B4F9A75FC5CA0 /* Pods_MoyaTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoyaTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F5B8AF0234C3AB2006D7A6B /* MoviePlayerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePlayerCell.swift; sourceTree = "<group>"; };
 		7F5B8AF2234C3DCE006D7A6B /* UITableView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+.swift"; sourceTree = "<group>"; };
-		7F5B8AF5234C6909006D7A6B /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 		7F5B8AF7234C780F006D7A6B /* Array+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+.swift"; sourceTree = "<group>"; };
 		7F5B8AF9234C9014006D7A6B /* ArticleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
 		7F5B8AFB234C9316006D7A6B /* UIImage+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+.swift"; sourceTree = "<group>"; };
 		7F5D1274234DAD08006F8979 /* CellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellData.swift; sourceTree = "<group>"; };
 		7F638815234DC772005B6991 /* ArticleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleService.swift; sourceTree = "<group>"; };
-		7FF861102345D2C4000E481B /* MoyaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoyaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FF861102345D2C4000E481B /* Article.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Article.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FF861132345D2C4000E481B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7FF861152345D2C4000E481B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7FF861172345D2C4000E481B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -151,14 +149,6 @@
 			path = UITableViewCell;
 			sourceTree = "<group>";
 		};
-		7F5B8AF4234C68F3006D7A6B /* UIView */ = {
-			isa = PBXGroup;
-			children = (
-				7F5B8AF5234C6909006D7A6B /* PlayerView.swift */,
-			);
-			path = UIView;
-			sourceTree = "<group>";
-		};
 		7F5D1272234DACDA006F8979 /* ViewData */ = {
 			isa = PBXGroup;
 			children = (
@@ -190,7 +180,7 @@
 		7FF861112345D2C4000E481B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7FF861102345D2C4000E481B /* MoyaTest.app */,
+				7FF861102345D2C4000E481B /* Article.app */,
 				7FF861262345D2C5000E481B /* MoyaTestTests.xctest */,
 				7FF861312345D2C5000E481B /* MoyaTestUITests.xctest */,
 			);
@@ -201,7 +191,6 @@
 			isa = PBXGroup;
 			children = (
 				7F5D1272234DACDA006F8979 /* ViewData */,
-				7F5B8AF4234C68F3006D7A6B /* UIView */,
 				7F5B8AEF234C39E1006D7A6B /* UITableViewCell */,
 				7FF861672345E488000E481B /* APIService */,
 				7FF861642345E43A000E481B /* Extension */,
@@ -317,7 +306,7 @@
 			);
 			name = MoyaTest;
 			productName = MoyaTest;
-			productReference = 7FF861102345D2C4000E481B /* MoyaTest.app */;
+			productReference = 7FF861102345D2C4000E481B /* Article.app */;
 			productType = "com.apple.product-type.application";
 		};
 		7FF861252345D2C5000E481B /* MoyaTestTests */ = {
@@ -563,7 +552,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F5B8AF6234C6909006D7A6B /* PlayerView.swift in Sources */,
 				7F5B8AF1234C3AB2006D7A6B /* MoviePlayerCell.swift in Sources */,
 				7F5D1275234DAD08006F8979 /* CellData.swift in Sources */,
 				7F5B8AF3234C3DCE006D7A6B /* UITableView+.swift in Sources */,
@@ -760,8 +748,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.igsho.cn.MoyaTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.igsho.cn.Article;
+				PRODUCT_NAME = Article;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -782,8 +770,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.igsho.cn.MoyaTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.igsho.cn.Article;
+				PRODUCT_NAME = Article;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

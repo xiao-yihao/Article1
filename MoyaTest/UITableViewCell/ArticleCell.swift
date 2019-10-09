@@ -73,7 +73,7 @@ class ArticleCell: UITableViewCell {
 
             titleLabel.topAnchor.constraint(equalTo: titleView.topAnchor),
             titleLabel.leadingAnchor.constraint(equalTo: titleView.leadingAnchor, constant: 10),
-            titleLabel.trailingAnchor.constraint(equalTo: titleView.trailingAnchor),
+            titleLabel.trailingAnchor.constraint(equalTo: titleView.trailingAnchor, constant: -10),
         ])
     }
 }
