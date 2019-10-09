@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7FF8610F2345D2C4000E481B"
-               BuildableName = "MoyaTest.app"
+               BuildableName = "Article.app"
                BlueprintName = "MoyaTest"
                ReferencedContainer = "container:MoyaTest.xcodeproj">
             </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7FF8610F2345D2C4000E481B"
-            BuildableName = "MoyaTest.app"
+            BuildableName = "Article.app"
             BlueprintName = "MoyaTest"
             ReferencedContainer = "container:MoyaTest.xcodeproj">
          </BuildableReference>
@@ -82,7 +82,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7FF8610F2345D2C4000E481B"
-            BuildableName = "MoyaTest.app"
+            BuildableName = "Article.app"
             BlueprintName = "MoyaTest"
             ReferencedContainer = "container:MoyaTest.xcodeproj">
          </BuildableReference>
