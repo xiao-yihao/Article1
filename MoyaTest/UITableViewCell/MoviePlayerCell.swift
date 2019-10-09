@@ -12,7 +12,6 @@ import AVKit
 class MoviePlayerCell: UITableViewCell {
     var thumbnailImageView = UIImageView()
     var titleLabel = UILabel()
-    var timeObserve: Any?
     
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
