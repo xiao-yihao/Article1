@@ -60,8 +60,8 @@ class ArticleCell: UITableViewCell {
         titleLabel.translatesAutoresizingMaskIntoConstraints = false
         
         NSLayoutConstraint.activate([
-            iconView.widthAnchor.constraint(equalToConstant: 160),
-            iconView.heightAnchor.constraint(equalToConstant: 120),
+            iconView.widthAnchor.constraint(equalToConstant: 120),
+            iconView.heightAnchor.constraint(equalToConstant: 90),
             iconView.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 15),
             iconView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 15),
             iconView.bottomAnchor.constraint(equalTo: contentView.bottomAnchor),
@@ -72,8 +72,8 @@ class ArticleCell: UITableViewCell {
             titleView.bottomAnchor.constraint(equalTo: contentView.bottomAnchor),
 
             titleLabel.topAnchor.constraint(equalTo: titleView.topAnchor),
-            titleLabel.leadingAnchor.constraint(equalTo: titleView.leadingAnchor, constant: 10),
-            titleLabel.trailingAnchor.constraint(equalTo: titleView.trailingAnchor, constant: -10),
+            titleLabel.leadingAnchor.constraint(equalTo: titleView.leadingAnchor, constant: 8),
+            titleLabel.trailingAnchor.constraint(equalTo: titleView.trailingAnchor, constant: -8),
         ])
     }
 }
