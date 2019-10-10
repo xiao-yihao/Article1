@@ -29,7 +29,7 @@ class ArticleCell: UITableViewCell {
     }
 
     func set(cellData: CellData) {
-        iconView.image = UIImage(url: cellData.thumbnail)
+        iconView.loadImageAsynchronously(url: URL(string: cellData.thumbnail))
         titleLabel.text = cellData.title
     }
 
